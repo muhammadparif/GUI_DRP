@@ -77,7 +77,7 @@ public class GAGraphApp extends Application {
         vertices.add(new Vertex(x, y));
         System.out.println("Added new vertex at (" + String.format("%.1f", x) + ", " + String.format("%.1f", y) + ")");
         System.out.println("Total nodes: " + vertices.size());
-        draw();
+        draw(); 
     }
 
     private void createEdges() {
